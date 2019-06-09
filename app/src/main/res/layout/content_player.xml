@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_player"
+        android:layout_width="@dimen/player_disk_width_height"
+        android:layout_height="@dimen/player_disk_width_height"
+        android:src="@drawable/img_player_disk" />
+
+</RelativeLayout>
+
+

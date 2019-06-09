@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mcc.radio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:process=":serviceProcess"
+        android:supportsRtl="true"
+        android:name=".app.MyApplication"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.PlayerService"
+            android:exported="true"
+            android:process=":serviceProcess" />
+
+        <receiver android:name="com.mcc.radio.service.PlayerService$AudioPlayerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.mcc.radio.ACTION_PLAY" />
+                <action android:name="com.mcc.radio.ACTION_PAUSE" />
+                <action android:name="com.mcc.radio.ACTION_STOP" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".utils.AlarmReceiver"/>
+
+    </application>
+
+</manifest>

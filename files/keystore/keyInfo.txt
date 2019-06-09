@@ -1,0 +1,2 @@
+Password: #myradio@2018
+Alias: my-radio

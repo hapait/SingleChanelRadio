@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bottom_bar_height">60dp</dimen>
+    <dimen name="player_disk_width_height">190dp</dimen>
+    <dimen name="content_header_layout_height">100dp</dimen>
+    <dimen name="rv_row_layout_height">75dp</dimen>
+    <dimen name="player_controller_height">90dp</dimen>
+
+</resources>

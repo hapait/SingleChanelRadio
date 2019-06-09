@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">My Radio</string>
+    <string name="radio_channel_name">RADIO ABC</string>
+    <string name="net_work_not_available">Network Not Available!</string>
+    <string name="app_url">play store url for the Radio Player</string>
+    <string name="program_name_holder">My Program</string>
+    <string name="host_name_holder">RJ XYZ</string>
+    <string name="program_time">12:30 pm</string>
+    <string name="recording_file_storage_directory">MyRadio</string>
+
+    <string name="app_ad_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstitial_ad_unit_id">cca-app-pub-3940256099942544/1033173712</string>
+
+</resources>

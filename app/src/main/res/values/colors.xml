@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color">#656B85</color>
+    <color name="colorPrimary21">#cccccc</color>
+
+    <color name="main_activity_background_color">#ffffff</color>
+    <color name="transparent_layout_color">#90FFFFFF</color>
+    <color name="bottom_bar_color">#000000</color>
+    <color name="channel_name_tv_color">#000000</color>
+    <color name="tv_name_color">#656B85</color>
+
+    //notification item colors;
+    <color name="notification_bg_left_color">#950B3D</color>
+    <color name="notification_bg_right_color">#616161</color>
+    <color name="notification_text_color">#ffffff</color>
+
+    //recyclerView item colors;
+    <color name="rv_row_bg_color">#E0E0E0</color>
+    <color name="rv_text_view_color">#000000</color>
+
+</resources>
